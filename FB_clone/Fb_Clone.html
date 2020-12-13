@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">
+
+   
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+            background-color:	#f7f7f7;
+            width: 100%;
+            height: 100vh;
+        }
+        .nav{
+            background-color: #3b5998;
+            color: white;
+            font-size: 12px;
+            height: 83px;
+            margin:0;
+            padding: 0;
+        }
+        .span1{
+            display: block;
+            padding:5px 0px;
+        }
+        .span2{
+            display: block;
+            padding:5px 0px;
+        }
+        .maindiv{
+            display: flex;
+            width: auto;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+           
+        }
+        #img{
+            float: left;
+            margin-left: 200px;
+        }
+       .a{
+           width: 570px;
+           height: 80px;
+           display: flex;
+           justify-content:space-around;
+           
+        
+           margin-right: 40px;
+          
+       }
+       
+       #i1{
+           position: relative;
+          
+       }
+       .ii{
+          
+           width: 160px;
+           height: 80px;
+           padding:10px 0px;
+           
+       }
+       #i2{
+           position: relative;
+           right: 60px;
+           
+       }
+
+       .div2{
+           width:520px;
+           height:240px;
+           background:url("https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/OBaVg52wtTZ.png");
+           background-repeat: no-repeat;
+           background-position:bottom;
+           margin-left:180px;
+           margin-top: 40px;
+           font-size: 20px;
+           color: black;
+           font-weight: bold;
+       }
+       #b1{
+           margin-right:20px;
+           width: 50px;
+           height: 22px;
+           padding: 1px;
+           font-weight: 600;
+           font-size: 12px;
+           color: white;
+           background-color:#4665aa;
+           margin-top: 22px;
+           border:1px solid rgba(0,0,0,0.2);
+           position: relative;
+           right: 120px;
+           top:10px;
+
+       }
+       #s1{
+           font-size:42px;
+           font-weight:600;
+           position: relative;
+           top:10px;
+           left:186px;
+           letter-spacing:-2px;
+       }
+       select
+       {
+           height: 30px;
+           width:70px;
+           padding: 0px 4px;
+       }
+       .contents{
+           display: grid;
+           grid-template-columns: 56% 44%;
+           
+       }
+       .input1{
+           width: 140px;
+       }
+       #w{
+           width: 140px;
+           position: relative;
+           top: 8px;
+           color:#b8c4e0;
+       }
+       #h4{
+           font-weight: 500;
+           font-size:18px;
+           margin-top: 8px;
+       }
+       #h1{
+           font-size: 36px;
+           margin-bottom: 0px;
+           margin-top: 22px;
+           
+       }
+       .ip11{
+           width: 175px;
+           height: 34px;
+           border-radius: 5px;
+           outline: none;
+           border:0.5px solid grey;
+           font-size: 18px;
+           padding:2px 10px;
+           margin-right: 10px;
+           margin-bottom: 10px;
+       }
+      
+       .ip22{
+           width: 385px;
+           height: 34px;
+           border-radius: 5px;
+           outline: none;
+           border:0.5px solid grey;
+           font-size: 18px;
+           padding:2px 10px;
+           margin-right: 10px;
+           margin-bottom: 10px;
+           
+       }
+       label
+       {
+            font-weight: 400;
+            font-size: 18px;
+           
+       }
+       #bot1
+       {
+        width: 194px;
+        height:40px;
+        font-weight: 600;
+        border-radius: 5px;
+        border:0.5px solid black;
+        position: relative;
+        top: 20px;
+        font-size: 18px;
+        color: white;
+        background-color:#69a74e;
+
+       }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+          <div class="maindiv">
+              <span id="s1"> facebook</span>
+             <div class="a">
+                <div id="i1" class="ii">
+                    <span  class=" span1" >Email or phone</span>
+                    <input type="text" class="input1" >
+  
+  
+                </div>
+                <div id="i2" class="ii">
+                   <span  class=" span2" >Password</span>
+                   <input type="text" class="input1" >
+                   <div id="w"><span>Forgotten account?</span></div>
+                </div>
+                <div><button id="b1">Log in</button></div>
+                </div>
+                
+            </div>
+            
+    </nav>
+    <div class="contents">
+    <div class="div2">
+        <span>Facebook helps you connect and share with the people in your life.</span>
+    </div>
+    <div>
+      <h1 id="h1">Create an account</h1>
+      <h4 id="h4">Its quick and easy</h4>
+        
+        <form action="">
+            <input type="text" name="" id="" class="ip11" placeholder="First name">
+            <input type="text" name="" id="" class="ip11" placeholder="Surname">
+            <div>
+                <input type="text" name="" id="" class="ip22" placeholder="Mobile number or email address">
+            </div>
+            <div>
+                <input type="text" name="" id="" class="ip22" placeholder="New password">
+            </div>
+            <div style="margin-top: 10px;margin-bottom: 5px;">
+                <span style="font-weight:bold;color: grey;">Birthday</span>
+            </div>
+            <div>
+                <select name="" id="">
+                    <option value="" selected>Day</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                </select>
+                <select name="" id="">
+                    <option value="" selected>Month</option>
+                    <option value="">january</option>
+                    <option value="">february</option>
+                    <option value="">march</option>
+                    <option value="">april</option>
+                    <option value="">may</option>
+                    <option value="">june</option>
+                    <option value="">july</option>
+                    <option value="">august</option>
+                    <option value="">september</option>
+                    <option value="">october</option>
+                    <option value="">november</option>
+                    <option value="">december</option>
+                </select>
+                <select name="" id="" >
+                    <option value="" selected>Year</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                </select>
+                
+                <div>
+                   <div style="margin-top:15px; margin-bottom: 10px;">
+                    <span style="font-weight: bold;color: grey;">Gender</span></div> 
+                   <div style="margin-left: 10px;">
+                    <input type="radio" name="rbtn"><label for="rbtn">Female</label>
+                    <input  style="margin-left: 20px;" type="radio" name="rbtn"><label for="rbtn">Male</label>
+                    <input  style="margin-left: 20px;" type="radio" name="rbtn"><label for="rbtn">Custom</label>
+            
+                   </div>
+                </div>
+                <div>
+                    <div style="width:320px; font-size: 11px; margin-top: 15px; font-weight: 500;"><span>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</span></div>
+                </div>
+                <div style="margin-bottom: 60px;">
+                    <button type="submit" id="bot1">Sign Up</button>
+                </div>
+            </div>
+            <span style="margin:auto; display: block; font-size: 12px; font-weight: 600; color: grey;"><span style="color:#3b5998;">Create a Page</span> for a celebrity, band or business.</span>
+        </div>
+        
+        </form>
+        
+    </div>
+</body>
+</html>
